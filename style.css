@@ -2,8 +2,10 @@ body {
   margin: 0;
   font-size: 18px;
   color: #333;
-  font-family: sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1.5;
+  justify-content: center;
+  /* text-align: center; */
 }
 
 .pic {
@@ -51,4 +53,19 @@ section h2 {
 
 ul li {
   margin-bottom: 10px;
+}
+
+li p {
+  width: 100%;
+  font-size: medium;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon {
+  height: 50px;
 }
