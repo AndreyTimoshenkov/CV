@@ -6,6 +6,16 @@ body {
   line-height: 1.5;
 }
 
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.ava {
+  width: 250px;
+  border-radius: 50%;
+}
+
 h1 {
   margin-top: 50px;
   margin-bottom: 10px;
