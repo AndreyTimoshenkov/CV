@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #333;
   font-family: "Manrope", sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   justify-content: center;
   /* text-align: center; */
 }
@@ -16,6 +16,7 @@ body {
 .ava {
   width: 250px;
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 h1 {
@@ -47,7 +48,7 @@ section {
 
 section h2 {
   padding: 0;
-  text-align: left;
+  text-align: center;
   border: 0;
 }
 
@@ -60,6 +61,21 @@ li p {
   font-size: medium;
 }
 
+.english {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.certificate {
+  font-weight: 600;
+}
+
+.cambridge {
+  width: 200px;
+  margin-top: 20px;
+}
+
 .contacts {
   display: flex;
   justify-content: center;
@@ -68,4 +84,30 @@ li p {
 
 .icon {
   height: 50px;
+}
+
+.hh {
+  height: 40px;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+.links {
+  text-align: center;
+}
+
+.git {
+  height: 80px;
+  margin-left: 30px;
+}
+
+.gitlab {
+  height: 50px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+}
+
+.leetcode {
+  height: 40px;
+  padding-bottom: 22px;
 }
