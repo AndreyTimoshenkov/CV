@@ -96,6 +96,29 @@ li p {
   text-align: center;
 }
 
+.workExperience {
+  line-height: 0.5em;
+}
+
+.experience {
+  display: flex;
+}
+
+.company {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 1em;
+  line-height: 3em;
+}
+
+.text {
+  line-height: normal;
+}
+
+.lt-logo {
+  height: 50px;
+}
+
 .git {
   height: 80px;
   margin-left: 30px;
